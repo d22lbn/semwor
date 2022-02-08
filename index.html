@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <header class="header">
+    <header id="header" class="header lock_padding">
         <div class="header_inner">
             <div class="logo">
                 <div class="logo_img">
@@ -43,63 +43,55 @@
 
         <div class="main_slider">
             <div class="main_slide">
-                <div class="main_item">
+                <a href="#popup" class="main_item popup_link">
                     <img src="img/item1.jpg" alt="">
-                    <div class="main_item_text">Подсолнух</div>
-                </div>
-                <div class="main_item">
+                </a>
+                <a href="#popup" class="main_item popup_link">
                     <img src="img/item2.jpg" alt="">
-                    <div class="main_item_text">Ладонь</div>
-                </div>
-                <div class="main_item">
+                </a>
+                <a href="#popup" class="main_item popup_link">
                     <img src="img/item3.jpg" alt="">
-                    <div class="main_item_text">Цветы</div>
-                </div>
-                <div class="main_item">
+                </a>
+                <a href="#popup" class="main_item popup_link">
                     <img src="img/item4.jpg" alt="">
-                    <div class="main_item_text">Природы</div>
-                </div>
-                <div class="main_item">
+                </a>
+                <a href="#popup" class="main_item popup_link">
                     <img src="img/item5.jpg" alt="">
-                    <div class="main_item_text">Камера</div>
-                </div>
-                <div class="main_item">
+                </a>
+                <a href="#popup" class="main_item popup_link">
                     <img src="img/item6.jpg" alt="">
-                    <div class="main_item_text">Женщина</div>
-                </div>
-                <div class="main_item">
+                </a>
+                <a href="#popup" class="main_item popup_link">
                     <img src="img/item7.jpg" alt="">
-                    <div class="main_item_text">Шишка</div>
-                </div>
-                <div class="main_item">
-                    <img src="img/item2.jpg" alt="">
-                    <div class="main_item_text">Ладонь</div>
-                </div>
-                <div class="main_item">
-                    <img src="img/item3.jpg" alt="">
-                    <div class="main_item_text">Цветы</div>
-                </div>
+                </a>
+                <a href="#popup" class="main_item popup_link">
+                    <img src="img/item1.jpg" alt="">
+                </a>
             </div>
         </div>
-        <div class="next">
-
-        </div>
-
-
-        <!--    <div class="next">-->
-        <!--        <input type="radio" name="point" id="slide1" checked>-->
-        <!--        <input type="radio" name="point" id="slide2">-->
-        <!--        <input type="radio" name="point" id="slide3">-->
-        <!--        <input type="radio" name="point" id="slide4">-->
-        <!--    </div>-->
     </main>
 
 
-    <footer class="footer">
+    <footer class="footer lock_padding">
         <div class="footer_inner">
             <span class="footer_text">© Алексей Мачихин, 2022-2022</span>
         </div>
     </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup_body">
+            <a href="#header" class="popup_close">X</a>
+            <img src="img/item2.jpg" alt="">
+            <div class="popup_content">
+                <div class="popup_name">Ладонь</div>
+                <div class="popup_desc">Тень ладони на стене от заката. И еще мловиала лилуи луаимло уилмоиулоп иул илуа ила илуаи луи луки луаимоуаилимлимлуки амтшщкпзыукртп оиклыимлку ифмикл илкцТень ладони на стене от заката. И еще мловиала лилуи луаимло уилмоиулоп иул илуа ила илуаи луи луки луаимоуаилимлимлуки амтшщкпзыукртп оиклыимлку ифмикл илкции</div>
+                <a href="" class="popup_price">5000 руб.</a>
+            </div>
+        </div>
+    </div>
+
+
 </div>
+<script src="popups.js"></script>
 </body>
 </html>
